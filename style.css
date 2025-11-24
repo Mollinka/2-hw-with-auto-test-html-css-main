@@ -32,7 +32,7 @@ header span {
     font-weight: 700;
     font-size: 48px;
     letter-spacing: 0.01em;
-    margin-bottom: 5px;
+    margin-bottom: 20px;
 }
 .main-text {
     /* Стили для текста в первой секции */
@@ -77,7 +77,7 @@ select {
     font-size: 16px;
     letter-spacing: 0.01em;
     list-style-image: url(./assets/images/solar_map-arrow-up-bold.svg);
-    padding-left: 20px;
+    padding: 0 20px;
 }
 .books-list {
     /* Стили для нумерованного списка во второй секции */
@@ -85,7 +85,7 @@ select {
     height: 57px;
     background-color: #fff;
     letter-spacing: 0.01em;
-    padding-left: 20px;
+    padding: 0 20px;
 }
 .label {
     /* Стили для подписей чекбоксов */
@@ -133,14 +133,14 @@ table {
 }
 th, td {
     /* Стили для ячеек таблицы */
-    padding: 15px;
+    padding: 12px 15px;
 }
 footer {
     /* Стили для футера */
     width: 1440px;
     height: 70px;
     background-color: rgba(163, 167, 255, 0.3);
-    padding: 25px 0 25px 0;
+    padding: 26px 0;
 }
 .footer-link {
     /* Стили для футера */
